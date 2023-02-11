@@ -1,0 +1,102 @@
+*{
+    font-family: 'PT Serif', serif;
+    color: rgb(255,194,51);
+    margin:0 ;
+    padding:0;
+        
+}
+
+
+body{
+    
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./Assets/background.png" );
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+
+nav div ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: small;
+    
+}
+
+.scroll{
+    position: fixed;
+    bottom:5px;
+    right: 5px;
+}
+.mainsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.scroll{
+    width: 100px;
+    height: 100px;
+}
+
+.button1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #FE515F;
+    color: white;
+    border: none;
+}
+
+.button1:hover{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color:white ;
+    color: #FE515F;
+    border: none;
+}
+
+.button2{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #FE515F;
+    color: white;
+    border: none;
+    font-size: large;
+    margin: 50px;
+}
+
+.button2:hover{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: white;
+    color: #FE515F;
+    border: none;
+    font-size: large;
+    margin: 50px;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+}
